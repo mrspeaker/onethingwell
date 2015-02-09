@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>One Thing Well</title>
+	<link rel="stylesheet" href="style/main.css" />
+</head>
+<body>
+
+	<div id="app"></div>
+
+	<script src="jspm_packages/system.js"></script>
+	<script src="config.js"></script>
+
+	<script>
+		System.transpiler = "6to5";
+		System.import("src/main");
+	</script>
+
+</body>
+</html>

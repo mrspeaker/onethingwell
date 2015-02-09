@@ -1,0 +1,36 @@
+body {
+	font-family: Helvetica, Verdana;
+	font-size: 9pt;
+	margin: 0;
+}
+
+#widgets > div {
+	width: 600px;
+	border:10px solid green;
+	margin: 0 auto;
+}
+
+.widget {
+	width: 100px;
+	border: 1px solid #000;
+	float: left;
+	padding: 4px;
+	margin: 3px;
+}
+
+.widget.mid {
+	width: 125px;
+}
+
+input[type=text] {
+	width: 30px;
+	text-align:right;
+}
+
+input[type=text].mid {
+	width: 70px;
+}
+
+.clear {
+	clear: both;
+}
