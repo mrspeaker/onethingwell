@@ -2,6 +2,8 @@ body {
 	font-family: Helvetica, Verdana;
 	font-size: 9pt;
 	margin: 0;
+	background-color: #000;
+	color: #777;
 }
 
 #widgets > div {
@@ -11,20 +13,31 @@ body {
 }
 
 .widget {
-	width: 100px;
-	border: 1px solid #000;
+	min-width: 100px;
+	min-height: 80px;
+	width: 10%;
+	height: 10%;
+	border: 1px solid #444;
 	float: left;
 	padding: 4px;
 	margin: 3px;
 }
 
 .widget.mid {
-	width: 125px;
+	width: 15%;
 }
 
+input, button {
+	background-color: #222;
+	border: 0;
+	color: #888;
+	margin: 2px;
+
+}
 input[type=text] {
 	width: 30px;
 	text-align:right;
+	border: 0;
 }
 
 input[type=text].mid {

@@ -26,6 +26,30 @@ export default React.createClass({
       <Lucky />
       <Magic8Ball />
       <TextCase />
+
+      <Rot13 />
+      <KeyCode />
+      <StopWatch />
+      <CurrentTime />
+      <DecHexBin />
+      <Deg2Far />
+      <Deg2Rad />
+      <LeapYear />
+      <Lucky />
+      <Magic8Ball />
+      <TextCase />
+
+      <Rot13 />
+      <KeyCode />
+      <StopWatch />
+      <CurrentTime />
+      <DecHexBin />
+      <Deg2Far />
+      <Deg2Rad />
+      <LeapYear />
+      <Lucky />
+      <Magic8Ball />
+      <TextCase />
     </div>
   }
 });
